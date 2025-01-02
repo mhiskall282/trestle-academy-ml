@@ -3,7 +3,7 @@ from subprocess import Popen
 
 def handler(event, context):
     # Start the Streamlit app as a subprocess
-    process = Popen(["streamlit", "run", "streamlit_app.py", "--server.port=8000", "--server.headless=true"])
+    process = Popen(["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.headless=true"])
 
     # Return a response that points to the running Streamlit app
     return {
