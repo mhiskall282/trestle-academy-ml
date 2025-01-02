@@ -1,10 +1,13 @@
 import streamlit as st
-import cv2
 import numpy as np
 from tensorflow import keras
 from PIL import Image
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import os
+os.system('pip install -r requirements.txt')
+import cv2
+
 
 # Check for GPU availability
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
