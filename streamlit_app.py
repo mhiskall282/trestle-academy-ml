@@ -41,6 +41,7 @@ if uploaded_file is not None:
 
     # Convert the uploaded image to a NumPy array for OpenCV processing
     img_array = np.array(image)
+    
 
     # Debug: Print image shape and type
     st.write("Image shape:", img_array.shape)
