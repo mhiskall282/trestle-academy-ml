@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import os
 os.system('pip install -r requirements.txt')
-import cv2
+import cv
 
 
 # Check for GPU availability
